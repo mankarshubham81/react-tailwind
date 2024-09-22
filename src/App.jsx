@@ -34,6 +34,6 @@ function App() {
   )
 }
 
-// export default FlexBox
-export default Grid
+export default FlexBox
+// export default Grid
 
