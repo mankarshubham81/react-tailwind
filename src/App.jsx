@@ -4,11 +4,12 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import FlexBox from './components/FlexBox';
 import Grid from './components/Grid';
+import Jit from './components/Jit';
 import Shadows from './components/Shadows';
 import Radius from './components/border-radius';
 import Hover from './components/Hover';
 import Animations from './components/Animations';
-
+import Responsive from './components/Responsive';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -45,11 +46,15 @@ function App() {
 // 3)
 // export default Shadows
 // 4)
+// export default Jit
+// 5)
 // export default Radius
-// 5)Hover
+// 6)Hover
 // export default Hover
-// 6) Animations
-export default Animations
+// 7) Animations
+// export default Animations
+// 8) Responsiveness
+export default Responsive
 
 
 
