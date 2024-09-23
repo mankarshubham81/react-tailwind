@@ -17,5 +17,5 @@ export default {
       },
     },
   },
-  plugins: [require('@tailwindcss/forms')], // Ensure this line is correct
+  plugins: [require('@tailwindcss/forms'),require('@tailwindcss/typography'),], // Ensure this line is correct
 }

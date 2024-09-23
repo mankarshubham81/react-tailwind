@@ -12,6 +12,8 @@ import Animations from './components/Animations';
 import Responsive from './components/Responsive';
 import ReactViteScreen from './components/react-vite-screen';
 import Example from './components/FormExample1';
+import TypographuPlugin from './components/typographu-plugin';
+import Directive from './components/Directive';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -61,6 +63,10 @@ function App() {
 // 9) ReactViteScreen
 // export default ReactViteScreen
 // 10) FormExample1
-export default Example
+// export default Example
+// 11) TypographuPlugin
+// export default TypographuPlugin;
+// 12) Directive
+export default Directive
 
 
