@@ -10,6 +10,9 @@ import Radius from './components/border-radius';
 import Hover from './components/Hover';
 import Animations from './components/Animations';
 import Responsive from './components/Responsive';
+import ReactViteScreen from './components/react-vite-screen';
+import Example from './components/FormExample1';
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -54,7 +57,10 @@ function App() {
 // 7) Animations
 // export default Animations
 // 8) Responsiveness
-export default Responsive
-
+// export default Responsive
+// 9) ReactViteScreen
+// export default ReactViteScreen
+// 10) FormExample1
+export default Example
 
 
